@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+
+<body>
+    <title>Etherum Miner</title>
+    <header>
+        <h1>Mining game</h1>
+        <h2 id='dollars'></h2>
+
+
+    </header>
+    <div class="view">
+        <div class="column">
+            <div id="mine">
+                <section id="myH2"></section>
+                <section id="gpsView"></section>
+
+                <img id="MiningBtn" src="images/3060ti.png" height="400" width="400">
+                <p id="convert"><b>(1$ = 0.00023 Etherum)</b></p>
+            </div>
+        </div>
+
+        <div class="column">
+            <nav class="menu">
+                <ul>
+                    <li><a id="power" href="#">Max Power:</a></li>
+                    <li><a id="powerDraw" href="#">Power Draw</a></li>
+                    <li><a id="powerUp" href="#">Power Upgrade : 0.0005 </a></li>
+
+            </nav>
+            <div id="shop">
+
+
+            </div>
+        </div>
+        <div id="formDiv">
+            <div id="nameDiv"></div>
+            <form id="nameForm"><input id="name" name="name" placeholder="name of the session" type="text">
+                <button type="button" id="save">Save Session</button>
+            </form>
+
+            <div id="loadDiv">
+
+                <form id="loadForm"><input id="name" name="name" placeholder="name of the session" type="text">
+                    <button type="button" id="load">Load Session</button>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<footer></footer>
+
+</html>
+<script type="module" src="js/index.js"></script>
