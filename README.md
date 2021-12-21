@@ -1,4 +1,4 @@
-# Groupe de garo_n 934946, Mining Game
+#Mining Game
 Mining Game est un clicker Game classique codé en JS. 
 
 # F.A.Q
