@@ -1,4 +1,4 @@
-#Mining Game
+# Mining Game
 Mining Game est un clicker Game classique codé en JS. 
 
 # F.A.Q
